@@ -4,5 +4,6 @@ class Program
     private static void Main(string[] args)
     {
         DataMahasiswa.ReadJSON();
+        KuliahMahasiswa.ReadJSON();
     }
 }
