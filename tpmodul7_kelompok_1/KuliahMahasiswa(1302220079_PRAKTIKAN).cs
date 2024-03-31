@@ -22,15 +22,14 @@ namespace tpmodul7_kelompok_1
     {
         public static void ReadJSON()
         {
-            Console.WriteLine("\nDaftar Mata Kuliah:");
+            Console.WriteLine("\nDaftar Mata Kuliah yang diambil:");
 
-            // Kode untuk membaca data mata kuliah dari tp7_2_1302220079.json
             string jsonCourses = File.ReadAllText("D:\\KPL\\tpmodul7_kelompok_1\\tpmodul7_kelompok_1\\tp7_2_1302220079.json");
             CoursesData courses = JsonSerializer.Deserialize<CoursesData>(jsonCourses);
 
             foreach (CourseData course in courses.courses)
             {
-                Console.WriteLine($"Kode: {course.code}, Nama: {course.name}");
+                Console.WriteLine($"MK 1 {course.code} - {course.name}");
             }
         }
     }
