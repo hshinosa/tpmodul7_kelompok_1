@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "CRI2C4",
+			"name": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"code": "TKI2C2",
+			"name": "Desain Basis Data"
+		},
+		{
+			"code": "TTI2J3",
+			"name": "Jaringan Komunikasi dan Data"
+		},
+		{
+			"code": "CII3B4",
+			"name": "Pemograman Berorientasi Objek"
+		},
+		{
+			"code": "CII2H3",
+			"name": "Sistem Operasi"
+		},
+		{
+			"code": "kode_matkul_6",
+			"name": "nama_matkul_6"
+		},
+		{
+			"code": "kode_matkul_7",
+			"name": "nama_matkul_7"
+		}
+	]
+}
