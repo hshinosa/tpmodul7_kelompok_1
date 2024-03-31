@@ -24,7 +24,7 @@ namespace tpmodul7_kelompok_1
         {
             Console.WriteLine("\nDaftar Mata Kuliah yang diambil:");
 
-            string jsonCourses = File.ReadAllText("C:\\Users\\LENOVO\\tpmodul7_kelompok_1\\tp7_2_103022390001.json");
+            string jsonCourses = File.ReadAllText("C:\\Users\\LENOVO\\tpmodul7_kelompok_1\\tpmodul7_kelompok_1\\tp7_2_103022390001.json");
             CoursesData courses = JsonSerializer.Deserialize<CoursesData>(jsonCourses);
 
             foreach (CourseData course in courses.courses)
